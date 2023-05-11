@@ -1,5 +1,4 @@
-import { useUpdateUserName } from "../context/UserContext";
-import { useUserName } from "../context/UserContext";
+import { useUpdateUserName, useUserName } from "../context/UserContext";
 import { useState } from "react";
 
 const UpdateProfileName = () => {
@@ -16,7 +15,7 @@ const UpdateProfileName = () => {
     <div className="container col-xl-10 col-xxl-8 px-4 py-5">
       <div className="row align-items-center g-lg-5 py-5">
         <div className="col-lg-7 text-center text-lg-start">
-          <h1 className="display-4 fw-bold lh-1 mb-3">Coffee House Profile</h1>
+          <h1 className="display-4 fw-bold lh-1 mb-3">Pizza House Profile</h1>
           <p className="col-lg-10 fs-4">Please update your name</p>
         </div>
         <div className="col-md-10 mx-auto col-lg-5">
@@ -41,7 +40,6 @@ const UpdateProfileName = () => {
               Update
             </button>
             <hr className="my-4" />
-            <small className="text-muted">Thank you</small>
           </form>
         </div>
       </div>

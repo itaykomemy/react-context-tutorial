@@ -1,10 +1,10 @@
-import PromoAd from "./PromoAd";
+import Promo from "./Promo";
 import UpdateProfileName from "./UpdateProfileName";
 
 const Content = () => {
   return (
     <>
-      <PromoAd />
+      <Promo />
       <UpdateProfileName />
     </>
   );

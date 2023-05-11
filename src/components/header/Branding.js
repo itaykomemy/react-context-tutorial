@@ -7,7 +7,7 @@ const Branding = () => {
       <svg className="bi me-2" width="40" height="32">
         <use xlinkHref="#bootstrap"></use>
       </svg>
-      <span className="fs-4">Coffee House</span>
+      <span className="fs-4">Pizza House</span>
     </a>
   );
 };
